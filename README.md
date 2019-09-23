@@ -1,1 +1,1 @@
-# vue-rooms
+# Vue.js-rooms
