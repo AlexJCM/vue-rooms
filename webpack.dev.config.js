@@ -10,13 +10,13 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"), //obtiene la direccion root de nuestro proyecto y
     filename: "js/bundle-[name].js", //[name] obtiene el nombre del entry para guardarlo con ese nombre
-    publicPath: "http://localhost:3000/", //consumimos los archivos desde nuestra ruta de desarrollo
+    publicPath: "http://localhost:9000/", //consumimos los archivos desde nuestra ruta de desarrollo
     chunkFilename: "js/[id].[chunkhash].js" //perzonaliza el nombre de los  chunks
   },
   devServer: {
     contentBase: path.resolve(__dirname, "dist"),
     open: true,
-    port: 3000,
+    port: 9000,
     hot: true
   },
   resolve: {

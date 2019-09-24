@@ -3,7 +3,7 @@
     <section class="footer__items bg-white border-t py-6">
       <div class="container grid-container">
         <div class="footer__brand mb-3">
-          <p class="text-grey-darkest text-3xl font-semibold mb-2">Platzi Rooms</p>
+          <p class="text-grey-darkest text-3xl font-semibold mb-2">Vue Rooms</p>
           <p class="text-grey-dark">
             Discover entire homes and private rooms perfect for any trip.
           </p>
